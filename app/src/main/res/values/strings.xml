@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">A1100695733</string>
+    <string name="select_restaurant">Select restaurant</string>
+    <string name="your_order">Your Order</string>
+    <string name="select_cuisine">Select cuisine</string>
+    <string name="order">order</string>
+    <string name="food_restrictions">Food Restrictions:</string>
+    <string name="favourite_cuisine">Favourite Cuisine:</string>
+    <string name="favourite_food">Favourite Food:</string>
+    <string name="credit_card_number">Credit Card Number:</string>
+    <string name="address">Address:</string>
+    <string name="last_name">Last Name:</string>
+    <string name="first_name">First Name:</string>
+    <string name="enter_customer_information">Enter customer information</string>
+    <string name="select_dishes">Select dishes</string>
+    <string name="enter">enter</string>
+    <string-array name="food_restrictions">
+        <item>None</item>
+        <item>Vegan</item>
+        <item>Vegeterian</item>
+        <item>Lactose Intolerant</item>
+        <item>Gluten Intolerant</item>
+    </string-array>
+</resources>

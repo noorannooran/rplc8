@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textAllCaps">false</item>
+
+    </style>
+    <style name="MyButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorPrimaryText</item>
+        <item name="android:textSize">@dimen/text_large</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_marginBottom">49dp</item>
+    </style>
+    <style name="MyButton.Submit">
+        <item name="android:text">submit</item>
+    </style>
+    <style name="MySpinnerBackground">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimaryLight</item>
+    </style>
+    <style name="MyText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="MyText.Large">
+        <item name="android:textSize">@dimen/text_large</item>
+    </style>
+    <style name="MyText.Medium">
+        <item name="android:textSize">@dimen/text_medium</item>
+    </style>
+    <style name="MyText.Large.Title">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:paddingBottom">@dimen/padding</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="Padding">
+        <item name="android:paddingTop">@dimen/padding</item>
+        <item name="android:paddingBottom">@dimen/padding</item>
+        <item name="android:paddingLeft">@dimen/padding</item>
+        <item name="android:paddingRight">@dimen/padding</item>
+    </style>
+    <style name="Padding.Layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="Padding.Layout.Linear">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeCuisine"
+    android:gravity="center_horizontal"
+    style="@style/Padding.Layout"
+
+    tools:context="com.example.gb.a1100695733.CuisineActivity">
+
+    <LinearLayout
+        style="@style/Padding.Layout.Linear"
+        android:id="@+id/linearCuisine">
+        <TextView
+            android:id="@+id/orderTitle"
+            style="@style/MyText.Large.Title"
+            android:text="@string/select_cuisine"/>
+        <RadioGroup
+            android:id="@+id/radioCuisine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:text="submit"
+        android:onClick="buttonClickHandler"
+        style="@style/MyButton"/>
+
+
+
+</RelativeLayout>
+

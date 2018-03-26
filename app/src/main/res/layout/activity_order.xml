@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.gb.a1100695733.OrderActivity"
+    style="@style/Padding.Layout.Linear">
+
+    <TextView
+        android:id="@+id/orderTitle"
+        style="@style/MyText.Large.Title"
+        android:text="@string/your_order"/>
+    <TextView
+        android:id="@+id/textOrder"
+        style="@style/MyText.Large"
+        android:text=""
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="30dp" />
+</LinearLayout>
